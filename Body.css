@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    /* background: grey; */
+    height: 100vh;
+    width: 100vw;
+
+}
+.intro
+{
+    /* background: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 8rem;
+
+}
+.myinfo{
+
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    font-family: 'Press Start 2P', cursive;
+
+
+}
+.myinfo p{
+    padding: 13px;
+}
+#name{
+    font-size: 3rem;
+    font-family: 'Zen Antique', serif;
+}
+.mypic img{
+    /* border: 2px solid red; */
+    height: 28rem;
+    /* width: 200px; */
+
+}
+
+.btnofintro{
+    display: flex;
+    margin-top: 2rem;
+    
+}
+.myinfo button{
+
+    margin-left: 1rem;
+    padding: 10px;
+    color: white;
+    background-color:royalblue;
+    border: 3px solid black;
+    border-radius: 23px;
+    width: 8rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.myinfo button:hover{
+    background-color: white;
+    color: royalblue;
+    /* font-size: 1.2rem; */
+}
