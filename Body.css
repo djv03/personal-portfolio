@@ -6,8 +6,9 @@
 }
 .body{
     /* background: grey; */
-    height: 100vh;
+    /* height: 100vh; */
     width: 100vw;
+    flex-wrap: wrap;
 
 }
 .intro
@@ -39,14 +40,11 @@
 .mypic img{
     /* border: 2px solid red; */
     height: 28rem;
-    /* width: 200px; */
-
 }
 
 .btnofintro{
     display: flex;
-    margin-top: 2rem;
-    
+    margin-top: 2rem;    
 }
 .myinfo button{
 
@@ -66,3 +64,95 @@
     color: royalblue;
     /* font-size: 1.2rem; */
 }
+
+
+                                                       @media screen and (max-width: 900px) {
+
+    .intro{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 4rem;
+    }
+    .mypic img{
+        /* border: 2px solid red; */
+        height: 18rem;
+    }
+    #name{
+        font-size: 2.3rem;
+    }
+    .sidebar{
+        position: absolute;
+        /* height: 100vh; */
+        width: 40vw;
+        background: pink;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition:transform 0.3s ease-in;
+    }
+    .cross{
+        margin-left: 15rem;
+        margin-top: 8px;
+    }
+    .socials{
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        margin-top: 4vh;
+    }
+    .socials a ul{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .socials a ul img{
+        height: 40px;
+        width: 40px;   
+    }
+    .btnofintro{
+        display: flex;
+        margin-top: 2rem;
+        margin-left: 3rem;
+        margin-bottom: 2rem;
+    }
+                                           /* css for mobile connectpage start here */
+    .connectpage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 10vw;
+        margin-top: 4rem;
+    
+    }
+    .connectpage h2{
+        width: 21rem;
+        padding: 0;
+        margin-left: 20rem;
+    }
+    .form{
+        margin-left: 18rem;
+    }
+    .form .inputs{
+        width: 17rem;
+    }
+    .checkbox{
+
+        width: 23rem;
+        margin-top: 13px;
+        margin-left: 22rem;
+    
+    }
+    #btnsubmit{
+        margin-top: 23px;
+        margin-left: 19rem;
+        /* padding: 13px; */
+        width: 8rem;
+
+        background-color:rgb(88, 123, 227);
+        border: 3px solid black;
+        border-radius: 23px;
+        font-size: 1rem;
+        font-weight: bolder;
+        cursor: pointer;    
+    }
+  }
