@@ -1,0 +1,27 @@
+.Projectspage{
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 100vh;
+}
+.Projectspage h2{
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.projectgrid{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+}
+
+.card{
+    border: 2px solid red;
+    margin: 2rem;
+}
+.card img{
+    height: 12rem;
+    width: 18rem;
+}
