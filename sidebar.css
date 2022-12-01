@@ -24,17 +24,15 @@
     margin-top: 23px ;
 }
 .cross{
-    margin-left: 17rem;
-    margin-top: 23px;
-    transition:transform 0.3s ease-out;
-    transition:transform 0.3s ease-in;
+    margin-left: 22rem;
+    margin-top: 10px;
 }
 
 .sidebar{
     position: absolute;
     height: 100vh;
     width: 12vw;
-    background: pink;
+    background: rgb(114, 134, 192);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,11 +75,16 @@
     display: flex;
     margin-top: 18vh;
 }
-.socials ul{
-    padding-left: 14px;
+
+.socials a img{
+    margin-left: 13px;
+    height: 2rem;
+    width: 2rem;
+    transition: 0.5s;
 }
 .socials a img:hover{
-    height: 26px;
-    width: 26px;
+    height: 2.2rem;
+    width: 2.2rem;
+    transform: rotate(360deg);
 }
 
