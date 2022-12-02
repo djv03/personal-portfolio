@@ -6,9 +6,8 @@
     padding: 0;
 }
 .Projectspage{
-    /* background-color: antiquewhite; */
-    /* width: 100vw; */
-    
+    background-color: black;
+    color: white;
 }
 .Projectspage h1{
     text-align: center;
@@ -26,8 +25,8 @@
 
 .Projectspage .card{
     width: 18rem;
-    /* border: 2px solid navy; */
-    /* border-radius: 13px; */
+    border: 2px solid navy;
+    border-radius: 13px;
     margin: 2rem;
     display: flex;
     flex-direction: column;
@@ -39,6 +38,7 @@
 .card img{
     height: 11rem;
     width: 18rem;
+    
 }
 .card .card-title{
     background-color: aqua;
