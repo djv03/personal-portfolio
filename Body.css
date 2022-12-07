@@ -45,6 +45,10 @@
     font-family: 'Zen Antique', serif;
 }
 
+
+
+
+
 .mypic img{
    
     border: 0.2rem solid #fff;
@@ -60,7 +64,10 @@
 
     height: 36rem;
     width: 27rem;
+
+    
 }
+
 
 .btnofintro{
     display: flex;
@@ -78,6 +85,7 @@
     font-size: 1rem;
     font-weight: bolder;
     cursor: pointer;
+    transition: 0.5s;
 }
 .myinfo button:hover{
     background-color: white;
@@ -90,20 +98,35 @@
     .intro{
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 4rem;
+
     }
     .mypic img{
         /* border: 2px solid red; */
-        height: 18rem;
+        height: 24rem;
+        width: 18rem;
     }
     #name{
         font-size: 2.3rem;
+    }
+    .myinfo{
+        margin-top: 10px;
+        align-items: center;
+    }
+    #line1{
+        display: none;
+    }
+    #titles{
+        text-align: center;
+        width: 15rem;
+        
+        /* border: 2px solid red; */
+
     }
     .sidebar{
         position: absolute;
         /* height: 100vh; */
         width: 40vw;
-        background: pink;
+        background:  #4a56b4;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -115,12 +138,11 @@
     }
     .socials{
         display: flex;
-        /* flex-direction: column; */
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         margin-top: 4vh;
     }
     .socials a ul{
-        margin-left: 1rem;
+        /* margin-left: 2rem; */
         margin-top: 10px;
     }
     .socials a ul img{
@@ -130,48 +152,30 @@
     .btnofintro{
         display: flex;
         margin-top: 2rem;
-        margin-left: 3rem;
+        /* margin-left: 3rem; */
         margin-bottom: 2rem;
     }
-                                           /* css for mobile connectpage start here */
-    .connectpage{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 10vw;
-        margin-top: 6rem;
-    
-    }
-    .connectpage h2{
-        width: 21rem;
-        padding: 0;
-        margin-left: 20rem;
-    }
-    .form{
-        margin-left: 18rem;
-    }
-    .form .inputs{
-        width: 17rem;
-    }
-    .checkbox{
+}
 
-        width: 23rem;
-        margin-top: 13px;
-        margin-left: 22rem;
-    
-    }
-    #btnsubmit{
-        margin-top: 23px;
-        margin-left: 19rem;
-        /* padding: 13px; */
-        width: 8rem;
 
-        background-color:rgb(88, 123, 227);
-        border: 3px solid black;
-        border-radius: 23px;
-        font-size: 1rem;
-        font-weight: bolder;
-        cursor: pointer;    
-    }
-  }
+.main{
+    margin: 0;
+    padding: 0;
+
+}
+.connectpage{
+    height: 100vh;
+    width: 100vw;
+}
+
+.connectpage .form input{
+    width: 20rem;
+}
+.connectpage .form textarea{
+    width: 20rem;
+    margin: 10px;
+}
+#btnsubmit{
+    margin: auto;
+    padding: 10px;
+}
