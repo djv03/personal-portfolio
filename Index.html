@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./sidebar.css">
     <link rel="stylesheet" href="./Body.css">
-    <link rel="stylesheet" defer href="./script.js">
+    <link rel="stylesheet" href="./switch.css">
     <title>dhruvinvekariya.me</title>
+    
 </head>
 
 <body>
@@ -28,29 +29,36 @@
                 </div>
                 <div class="socials">
                     <a href="https://github.com/djv03">
-                        <ul><img src="./github.png"  alt=""  ></ul>
+                        <ul><img src="./github.png" alt=""></ul>
                     </a>
                     <a href="https://twitter.com/dhruvinj_dj">
-                        <ul><img src="./pngtwitter.png"  alt="" ></ul>
+                        <ul><img src="./pngtwitter.png" alt=""></ul>
                     </a>
                     <a href="">
-                        <ul><img src="./emailpng.png"  alt="" ></ul>
+                        <ul><img src="./emailpng.png" alt=""></ul>
                     </a>
                     <a href="">
-                        <ul><img src="./youtubepng.png"   alt=""  ></ul>
+                        <ul><img src="./youtubepng.png" alt=""></ul>
                     </a>
 
                 </div>
             </nav>
         </div>
         <div class="hamburger">
-            <img class="ham" src="./ham.png" alt="" width="30" height="30">
+            <img class="ham " src="./ham.png" alt="" width="30" height="30">
             <img class="cross" src="./crosspng.png" alt="" width="30" height="30">
         </div>
-        <div class="body">
+        <div class="body lightmode">
+
+            <div class="switchme" >
+                <div id="click1" >standard</div>
+                <div><button id="btn" >click me</button></div>
+                <div id="click2" >devlopers</div>
+            </div>
+
             <div class="intro">
                 <div class="myinfo">
-                    <p>Hi, I am</p>
+                    <p id="line1">Hi, I am</p>
                     <p id="name">Dhruvin Vekariya</p>
                     <p id="titles">devloper, speaker and web3 enthusiast</p>
                     <div class="btnofintro">
@@ -60,17 +68,17 @@
 
                 </div>
                 <div class="mypic">
-                    <img id="mypic1" src="./IMG_6172.jpg" alt="devloper pic"  onmouseenter="this.src='./myimg2.png'"   onmouseout="this.src='IMG_6172.jpg' ">
-                    <img id="mypic2" style="display: none;" src="./myimg2.png" >
+                    <img id="mypic1" src="./IMG_6172.jpg" alt="devloper pic" onmouseenter="this.src='./myimg2.png'"
+                        onmouseout="this.src='IMG_6172.jpg' ">
+                    <img id="mypic2" style="display: none;" src="">
                     <!-- <img src="./man-png-30098.png" alt="" srcset=""> -->
 
                 </div>
             </div>
         </div>
     </div>
-    <script src="./script.js">
-
-    </script>
+    <script src="./script.js"></script>
+    
 </body>
 
 </html>
