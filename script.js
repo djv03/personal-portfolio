@@ -24,9 +24,25 @@ document.querySelector('.hamburger').addEventListener("click",()=>{
 
 //js of mypic hover--------->
 
-onmouseenter=document.getElementsByClassName("mypic").src='./myimg2.png';
 
-  onmouseout= document.querySelector(".mypic").src='./IMG_6172.jpg';
+
+// setTimeout(mouseEnter,1000);
+//I want to add slowly blurring effect of the backgorund of the mt image but this is not happening right now so try may be later
+//but try surely
+
+document.querySelector("#mypic1").addEventListener("mouseenter",mouseEnter);
+function mouseEnter() {
+    // console.log("mouse is inside")
+    document.getElementById("mypic1").src = "./myimg2.png";
+  }
+
+
+
+document.querySelector("#mypic1").addEventListener("mouseleave",mouseLeave);
+function mouseLeave(){
+    // console.log("mouse outside");
+    document.getElementById("mypic1").src="./IMG_6172.jpg"
+}
 
 
 
@@ -44,7 +60,7 @@ onmouseenter=document.getElementsByClassName("mypic").src='./myimg2.png';
         document.querySelector("#click1").style.display="none";
         document.querySelector("#click2").style.display="inline";
         document.querySelector("#click2").style.color="white";
-        document.querySelector(".ham").style.filter="none";
+        
 
         document.querySelector(".myinfo").style.color="white";
         
