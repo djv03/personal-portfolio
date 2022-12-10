@@ -72,6 +72,11 @@ document.querySelector('.hamburger').addEventListener("click",()=>{
         document.getElementById("name").style="inline";
 
         document.querySelector(".mypic img").style="inline";
+        document.querySelector("#btn").style="inline";
+        document.querySelector("#btn").textContent="devloper mode";
+        document.querySelector("#btn").style.fontFamily="'Press Start 2P', cursive";
+        document.querySelector("#click2").style.display="none";
+        document.querySelector("#click1").style.display="none";
         
 
        
@@ -100,6 +105,16 @@ document.querySelector('.hamburger').addEventListener("click",()=>{
 
         document.querySelector(".mypic img").style.boxShadow="0px 0px 0px white";
         document.querySelector(".mypic img").style.border="5px solid black";
+
+        document.querySelector("#btn").style.borderColor="royalblue";
+
+        document.querySelector("#btn").textContent="Standard mode";
+        document.querySelector("#btn").style.fontSize="1.2rem";
+        document.querySelector("#btn").style.fontWeight="bold"
+        document.querySelector("#btn").style.fontFamily="inline"
+
+        document.querySelector("#click2").style.display="none";
+        document.querySelector("#click1").style.display="none";
         
 
     }
