@@ -31,14 +31,16 @@
 
   position: absolute;
   margin-left: 43rem;
+
+  cursor: pointer;
 }
 #click1{
   position: absolute;
-  margin-left: 36rem;
+  margin-left: 35.5rem;
   margin-top: 31px;
 
   font-family: 'Zen Antique', serif;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 #click2{
