@@ -24,10 +24,10 @@
 }
 #btn{
   
-  border: 2px solid yellow;
+  border: 2px solid royalblue;
   border-radius: 13px;
-  height: 2rem;
-  width: 6rem;
+  height: 3rem;
+  width: 8rem;
 
   position: absolute;
   margin-left: 43rem;
@@ -48,6 +48,7 @@
   margin-left: 50rem;
   margin-top: 31px;
   font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
 }
 
   
